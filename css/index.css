@@ -1,0 +1,115 @@
+
+nav{
+    width: 100%;
+    height: 85px;
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+img{
+    width: 3.8%;
+}
+ul{
+    width: 15%;
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+}
+ul li a {
+    margin: 0 5% 0 0;
+    text-decoration: none;
+}
+ul .time{
+    border-style: solid;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+}
+ul .posicao{
+    border-style: solid;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+}
+h1{
+    text-align: center;
+}
+.card{
+    width: 30%;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-indent: 5%;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+.card1{
+    width: 30%;
+    height: 300px;
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-indent: 5%;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+}
+table, th, td{
+    width: 60%;
+    margin: 0 auto;
+    border-style: solid;
+    border-bottom-width: 1px ;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+tr:hover{
+    background: red;
+}
+td{
+    padding: 1.5%;
+}
+table{
+    border-collapse: collapse;
+
+}
+
+ 
+section{
+    width: 80%;
+    height: 990px;
+    margin: 1% 0 0 0;
+}
+main{
+    display: flex;
+    background: #F2F2F2;
+}
+aside{
+    width: 17.5%;
+    margin: 1% 0 0 0.5%;
+    height: 800px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    margin: 12px 0 0 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}

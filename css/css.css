@@ -1,0 +1,39 @@
+.card{
+    width: 24%;
+    height: 150px;
+    margin-top: 1%;
+    background: cornsilk;
+}
+
+.flex1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.card1{
+    width: 20%;
+    height: 150px;
+    margin: 1%;
+    background: burlywood;
+}
+.card1maior{
+    width: 61%;
+    height: 150px;
+    margin: 1%;
+    background: burlywood;
+}
+@media screen and (max-width: 490px){
+    .card{
+        width: 100%;
+        background: cornsilk;
+    }
+    .flex{
+        flex-direction: column;
+    }
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
