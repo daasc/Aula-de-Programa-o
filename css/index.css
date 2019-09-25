@@ -16,7 +16,8 @@ section {
 aside{
     width: 19%;
     height: 900px;
-    background: darkblue;
+    max-width: 900px;
+    overflow: scroll;
 }
 footer{
     background: #1C1C1C;
@@ -46,6 +47,9 @@ td, th{
 }
 thead{
     background: #BDBDBD;
+}
+.rodape .rd{
+    margin-top: 150px;
 }
 tr:hover{
     background: #E6E6E6;
@@ -142,6 +146,7 @@ h1{
     padding-top:5px;
     padding-bottom:10px;
     padding-left:35px;
+    margin: 0 auto;
   }
   .mat h3{
     font-weight:500;
